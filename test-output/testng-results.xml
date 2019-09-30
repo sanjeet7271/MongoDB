@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12658" started-at="2019-09-27T11:43:21Z" finished-at="2019-09-27T11:43:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12658" started-at="2019-09-27T11:43:21Z" finished-at="2019-09-27T11:43:33Z">
+      <class name="MongoConnect.MongoConnection">
+        <test-method status="PASS" signature="createDatabse()[pri:0, instance:MongoConnect.MongoConnection@3a82f6ef]" name="createDatabse" duration-ms="5284" started-at="2019-09-27T11:43:21Z" finished-at="2019-09-27T11:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDatabse -->
+        <test-method status="PASS" signature="updateTable()[pri:1, instance:MongoConnect.MongoConnection@3a82f6ef]" name="updateTable" duration-ms="3609" started-at="2019-09-27T11:43:26Z" finished-at="2019-09-27T11:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTable -->
+        <test-method status="PASS" signature="writeQueryToSearch()[pri:2, instance:MongoConnect.MongoConnection@3a82f6ef]" name="writeQueryToSearch" duration-ms="3748" started-at="2019-09-27T11:43:30Z" finished-at="2019-09-27T11:43:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeQueryToSearch -->
+      </class> <!-- MongoConnect.MongoConnection -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
